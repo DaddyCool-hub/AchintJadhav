@@ -10,58 +10,141 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Achint Jadhav</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activities">Extra Curricular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certifications">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <!-- Hero Section -->
   <header class="hero-section">
     <div class="container text-center">
-      <h1 class="animate__animated animate__fadeInDown">Achint Jadhav</h1>
-      <p class="lead animate__animated animate__fadeInUp">MBA Student | Marketing Specialist | Aspiring Business Leader</p>
+      <h1>Achint Jadhav</h1>
+      <p class="lead">MBA Student | Marketing Specialist | Aspiring Business Leader</p>
     </div>
   </header>
 
-  <!-- Projects Section -->
-  <section id="projects" class="py-5">
+  <!-- About Me Section -->
+  <section id="about" class="py-5">
     <div class="container">
-      <h2 class="text-center mb-4">Projects</h2>
+      <h2 class="text-center mb-4">About Me</h2>
       <div class="row">
-        <!-- Project 1 -->
-        <div class="col-md-4">
-          <div class="project-card">
-            <img src="images/project1.jpg" alt="Project 1" class="img-fluid">
-            <div class="project-overlay">
-              <div class="project-details">
-                <h3>Market Analysis for FMCG (Cadbury and Nestlé)</h3>
-                <p>Conducted in-depth market research to identify trends and competitive strategies.</p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <img src="images/achint.jpg" alt="Achint Jadhav" class="img-fluid rounded-circle">
         </div>
-        <!-- Project 2 -->
-        <div class="col-md-4">
-          <div class="project-card">
-            <img src="images/project2.jpg" alt="Project 2" class="img-fluid">
-            <div class="project-overlay">
-              <div class="project-details">
-                <h3>Digital Marketing Campaign</h3>
-                <p>Developed and executed a digital marketing campaign.</p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <p>
+            Hello! I'm Achint Jadhav, currently pursuing an MBA with a specialization in Marketing at Savitribai Phule Pune University. I am passionate about understanding consumer behavior, developing strategic marketing campaigns, and driving business growth through innovative solutions. With a strong foundation in business principles and a keen interest in digital marketing, I aim to make a meaningful impact in the corporate world.
+          </p>
         </div>
-        <!-- Project 3 -->
-        <div class="col-md-4">
-          <div class="project-card">
-            <img src="images/project3.jpg" alt="Project 3" class="img-fluid">
-            <div class="project-overlay">
-              <div class="project-details">
-                <h3>Brand Strategy Development</h3>
-                <p>Created a comprehensive brand strategy for a startup.</p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Education</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Master of Business Administration (MBA)</h3>
+          <p><strong>Specialization:</strong> Marketing</p>
+          <p><strong>University:</strong> Savitribai Phule Pune University</p>
+          <p><strong>Year:</strong> 2024 - Present</p>
         </div>
+        <div class="col-md-6">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p><strong>University:</strong> [Your University Name]</p>
+          <p><strong>Year:</strong> [Year of Graduation]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Experience</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Marketing Intern</h3>
+          <p><strong>Company:</strong> [Company Name]</p>
+          <p><strong>Duration:</strong> [Start Date] - [End Date]</p>
+          <p>
+            Assisted in developing and executing digital marketing campaigns, conducted market research, and analyzed consumer behavior to improve brand positioning.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extra Curricular Activities Section -->
+  <section id="activities" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Extra Curricular Activities</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <ul>
+            <li>Participated in Diwali Mandi</li>
+            <li>Participated in Shark Tank at JSPM College</li>
+            <li>Member of Green Club</li>
+            <li>Performed at ZING 2025 Fashion Show at S.B. Patil Institute of Management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Certifications</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <ul>
+            <li>Digital Marketing Certification - [Issuing Organization]</li>
+            <li>Market Research Certification - [Issuing Organization]</li>
+            <li>Leadership and Team Management Certification - [Issuing Organization]</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <div class="text-center">
+        <p>Email: jadhavachint@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/achint-jadhav-04b83a283/">Achint Jadhav</a></p>
+        <p>GitHub: <a href="https://github.com/DaddyCool-hub">DaddyCool-hub</a></p>
       </div>
     </div>
   </section>
